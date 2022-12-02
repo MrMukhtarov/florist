@@ -1,0 +1,21 @@
+.logodetail .btn1{
+    background-color: green!important;
+    color: white;
+}
+.logodetail{
+    position: relative;
+}
+.logodetail .back{
+    text-decoration: none;
+    transition: .7s;
+    color: black;
+    font-size: 15px;
+}
+.logodetail .back:hover{
+    color: red;
+}
+.logodetail .backdiv{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}

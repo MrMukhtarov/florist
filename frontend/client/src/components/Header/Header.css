@@ -1,0 +1,53 @@
+.headerRight .headerRight-left a {
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    color: #111111;
+    font-weight: 500;
+    padding: 3px 0;
+    text-transform: uppercase;
+    -webkit-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
+    transition: all, 0.3s;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.headerRight .headerRight-left a:hover {
+    color: #FABAA4;
+}
+
+header .all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerRight-right svg {
+    margin-left: 40px;
+    color: #111111;
+    font-size: 16px;
+}
+
+.headerRight .burger {
+    display: none;
+}
+
+@media(max-width:576px) {
+    .headerRight-left {
+        display: none;
+    }
+
+    .headerRight-right .bssearch,
+    .bsheart,
+    .bshandbag {
+        display: none;
+    }
+
+    .headerRight-right .burger {
+        display: block;
+        font-size: 30px;
+    }
+    header .container{
+        padding: 0 10px !important;
+    }
+}
