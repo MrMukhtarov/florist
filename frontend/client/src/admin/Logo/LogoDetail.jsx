@@ -20,8 +20,8 @@ const LogoDetail = () => {
       <table className="table w-75 m-auto mt-5">
         <thead>
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Display</th>
+            <th scope="col">Count</th>
+            <th scope="col">Logo</th>
             <th scope="col">Button</th>
           </tr>
         </thead>

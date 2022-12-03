@@ -20,11 +20,7 @@ const Sidebars = () => {
               {" "}
               Add
             </MenuItem>
-            <MenuItem routerLink={<Link to="/calendar" />}> Calendar</MenuItem>
-            <MenuItem routerLink={<Link to="/e-commerce" />}>
-              {" "}
-              E-commerce
-            </MenuItem>
+            <MenuItem routerLink={<Link to="/admin/sliderdetail" />}> Detail</MenuItem>
           </SubMenu>
           <SubMenu label="Instagram">
             <MenuItem routerLink={<Link to="/documentation" />}>

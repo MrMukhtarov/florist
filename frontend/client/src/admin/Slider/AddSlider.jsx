@@ -40,7 +40,7 @@ const handleSubmit=(e)=>{
     <div className="addslider">
       <div className="login">
         <div className="form">
-          <p>Logo</p>
+          <p>Add Slider</p>
           <form key={inputs._id} className="login-form" onSubmit={handleSubmit}>
             <input
               type="text"

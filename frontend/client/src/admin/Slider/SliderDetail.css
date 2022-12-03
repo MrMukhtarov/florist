@@ -1,0 +1,37 @@
+.sliderdetail .btn1{
+    background-color: green!important;
+    color: white;
+}
+.sliderdetail .btndel{
+    background-color: red!important;
+    color: white;
+}
+.sliderdetail .table{
+    width: 85% !important;
+    margin-top: 150px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sliderdetail{
+    position: relative;
+}
+.sliderdetail .back{
+    text-decoration: none;
+    transition: .7s;
+    color: black;
+    font-size: 15px;
+}
+.sliderdetail .back:hover{
+    color: red;
+}
+.sliderdetail .backdiv{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.sliderdetail img{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}

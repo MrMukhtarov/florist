@@ -1,27 +1,28 @@
 import React from "react";
 import "./Slider.css";
-// import "react-slideshow-image/dist/styles.css";
-// import { Slide } from "react-slideshow-image";
 import { useSlider } from "../Context/SliderContext.jsx";
-import Carousel from "better-react-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 const Sliderr = () => {
   const { slider } = useSlider();
 
   return (
-    <Carousel autoplay={4000} cols={1} rows={1} gap={10} loop>
+    <div>
+    <Carousel autoPlay interval="10000" transitionTime="1000" infiniteLoop>
       {slider &&
         slider.map((sliders) => (
-          <Carousel.Item>
-            <img className="carouselimage" src={sliders.img} alt="img" />
+          <div>
+            <img className="carouselimage img-fluid" src={sliders.img} alt={sliders.title}/>
             <div className="slidercontent col-lg-3">
               <span className="slidertitle">{sliders.title}</span>
               <h2 className="sliderdesc">{sliders.desc}</h2>
-              <button className="pirmary-btn">Shop now</button>
+              <button className="pirmary-btn">SHOP NOW</button>
             </div>
-          </Carousel.Item>
+          </div>
         ))}
     </Carousel>
+  </div>
   );
 };
 

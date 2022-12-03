@@ -46,7 +46,7 @@ const LogoUpdate = () => {
     <div className="updatelogo">
       <div class="login">
         <div class="form">
-          <p>Logo</p>
+          <p>Update Logo</p>
           <form key={inputs._id} class="login-form" onSubmit={handleSubmit}>
             <input
               type="text"
