@@ -4,6 +4,7 @@ import App from "./App";
 import { ProSidebarProvider } from "react-pro-sidebar";
 import { SliderContextProvider } from "./components/Context/SliderContext";
 import { LogoContextProvider } from "./components/Context/LogoContext";
+import { CategoryContext } from "./components/Context/CategoryContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,7 +12,9 @@ root.render(
     <LogoContextProvider>
       <ProSidebarProvider>
         <SliderContextProvider>
-          <App />
+          <CategoryContext>
+            <App />
+          </CategoryContext>
         </SliderContextProvider>
       </ProSidebarProvider>
     </LogoContextProvider>

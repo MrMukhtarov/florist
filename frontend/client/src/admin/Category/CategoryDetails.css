@@ -1,0 +1,37 @@
+.categorydetail .btn1{
+    background-color: green!important;
+    color: white;
+}
+.categorydetail .btndel{
+    background-color: red!important;
+    color: white;
+}
+.categorydetail .table{
+    width: 85% !important;
+    margin-top: 150px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.categorydetail{
+    position: relative;
+}
+.categorydetail .back{
+    text-decoration: none;
+    transition: .7s;
+    color: black;
+    font-size: 15px;
+}
+.categorydetail .back:hover{
+    color: red;
+}
+.categorydetail .backdiv{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.categorydetail img{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}

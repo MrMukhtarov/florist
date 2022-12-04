@@ -1,0 +1,45 @@
+.categories .content{
+    background: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    left: 25px;
+    bottom: 15px;
+    width: calc(100% - 50px);
+}
+.categories{
+    margin-bottom: 30px;
+}
+.categories .box{
+    position: relative;
+}
+.categories h4{
+    color: #111111;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+}
+.categories span{
+    font-size: 14px;
+    color: #444444;
+}
+.categories img{
+    height: 440px;
+    width: 280px;
+    object-fit: cover;
+}
+
+@media(max-width: 576px) {
+    .categories .box{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .categories .content {
+        background: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+        position: absolute;
+        left: 75px;
+        bottom: 15px;
+        width: calc(100% - 150px);
+    }
+}

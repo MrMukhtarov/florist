@@ -22,16 +22,12 @@ const Sidebars = () => {
             </MenuItem>
             <MenuItem routerLink={<Link to="/admin/sliderdetail" />}> Detail</MenuItem>
           </SubMenu>
-          <SubMenu label="Instagram">
-            <MenuItem routerLink={<Link to="/documentation" />}>
+          <SubMenu label="Category">
+            <MenuItem routerLink={<Link to="/admin/addcategory" />}>
               {" "}
-              Documentation
+              Add
             </MenuItem>
-            <MenuItem routerLink={<Link to="/calendar" />}> Calendar</MenuItem>
-            <MenuItem routerLink={<Link to="/e-commerce" />}>
-              {" "}
-              E-commerce
-            </MenuItem>
+            <MenuItem routerLink={<Link to="/admin/categorydetail" />}>Detail</MenuItem>
           </SubMenu>
         </Menu>
       </Sidebar>

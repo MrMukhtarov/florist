@@ -12,7 +12,7 @@ const Sliderr = () => {
     <Carousel autoPlay interval="10000" transitionTime="1000" infiniteLoop>
       {slider &&
         slider.map((sliders) => (
-          <div>
+          <div key={sliders._id}>
             <img className="carouselimage img-fluid" src={sliders.img} alt={sliders.title}/>
             <div className="slidercontent col-lg-3">
               <span className="slidertitle">{sliders.title}</span>
