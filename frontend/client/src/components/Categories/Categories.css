@@ -42,4 +42,7 @@
         bottom: 15px;
         width: calc(100% - 150px);
     }
+    .categories{
+        padding: 20px !important;
+    }
 }

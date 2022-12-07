@@ -6,7 +6,6 @@ import { useCategory } from "../../components/Context/CategoryContext";
 import "./CategoryDetails.css";
 
 const CategoryDetails = () => {
-    
   const { category } = useCategory();
 
   const navigate = useNavigate();
