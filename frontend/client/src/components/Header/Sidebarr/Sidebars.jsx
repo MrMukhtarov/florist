@@ -29,6 +29,13 @@ const Sidebars = () => {
             </MenuItem>
             <MenuItem routerLink={<Link to="/admin/categorydetail" />}>Detail</MenuItem>
           </SubMenu>
+          <SubMenu label="Arrivals">
+            <MenuItem routerLink={<Link to="/admin/addarrivals" />}>
+              {" "}
+              Add
+            </MenuItem>
+            <MenuItem routerLink={<Link to="/admin/categorydetail" />}>Detail</MenuItem>
+          </SubMenu>
         </Menu>
       </Sidebar>
     </>

@@ -1,0 +1,124 @@
+.arrivals .content .heading span {
+    color: #f45d96;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.arrivals .content .heading h2 {
+    font-size: 42px;
+    color: #111111;
+    line-height: 1.4;
+    font-weight: 400;
+    font-family: "Libre Baskerville", serif;
+}
+.arrivals .content .heading{
+    text-align: center;
+}
+.arrivals .content .category a{
+    font-size: 16px;
+    color: #949294;
+    display: inline-block;
+    list-style: none;
+    padding: 3px 10px 2px;
+    margin-right: 15px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    text-decoration: none;
+}
+.arrivals .allcategory{
+    border: 2px solid #f45d96;
+}
+.arrivals .boxes .box{
+    position: relative;
+    overflow: hidden;
+}
+.arrivals .boxes .status{
+    position: absolute !important;
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #111111;
+    display: inline-block;
+    padding: 2px 8px 1px;
+    text-transform: uppercase;
+    left: 30px;
+    top: 15px;
+}
+.arrivals .boxes .bottom a{
+    color: #111111;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+}
+.arrivals .boxes .bottom span{
+    color: #111111;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    left: 0;
+    transition: all, 0.6s;
+    opacity: 1;
+}
+.arrivals .icons{
+    position: absolute !important;
+    bottom: 80px;
+    left: 50px;
+    text-align: center;
+    opacity: 0;
+    transition: .10s;
+}
+.arrivals .icons i{
+    background-color: white;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 50px;
+    padding: 10px;
+}
+.arrivals .icons a{
+    text-decoration: none;
+    color: black;
+}
+.arrivals .box:hover .icons{
+    transition: .10s;
+    opacity: 1;
+}
+.arrivals .addcart a{
+    font-size: 14px;
+    color: #f45d96 !important;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all, 0.3s;
+    text-decoration: none;
+    position: absolute;
+    bottom: 1px;
+    right: 78px;
+    opacity: 0;
+}
+.arrivals .box:hover .addcart a{
+    opacity: 1;
+}
+.arrivals .box:hover .bottom span{
+    opacity: 0;
+}
+.arrivals .display-none{
+    display: none;
+}
+
+/* .arrivals .loadmore{
+    font-size: 15px;
+    color: #111111;
+    letter-spacing: 2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #111111;
+    text-align: center !important;
+    text-decoration: none;
+    margin: auto;
+} */
